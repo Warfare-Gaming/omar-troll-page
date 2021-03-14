@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Omar Bel</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Arvo'><link rel="stylesheet" href="./style.css">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="js/videopopup.js"></script>
+<link rel="stylesheet" type="text/css" href="css/videopopup.css" media="screen" />
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class="page_404">
+	<div class="container">
+		<div class="row">	
+		<div class="col-sm-12 ">
+		<div class="col-sm-10 col-sm-offset-1  text-center">
+		<div class="four_zero_four_bg">
+			<h1 class="text-center ">Omar Noob</h1>
+		
+		
+		</div>
+		
+		<div class="contant_box_404">
+		<h3 class="h2">
+		Hi im Omar Bell. I have big familia
+		</h3>
+		
+		<p>to view my dance click the green button below</p>
+		
+		<href="javascript:void(0)" id="video1" class="link_404">Watch Me</a>
+	</div>
+		</div>
+		</div>
+		</div>
+	</div>
+	<div id="vidBox">
+        <div id="videCont">
+		<video autoplay id="v1" loop controls>
+            <source src="http://omarbelfamily.tk/omar.mp4" type="video/mp4">
+          
+        </video>
+         </div>
+        </div>
+            <script type="text/javascript">
+            $(function () {
+               $('#vidBox').VideoPopUp({
+                	backgroundColor: "#17212a",
+                	opener: "video1",
+                    maxweight: "340",
+                    idvideo: "v1"
+                });
+            });
+    </script>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</section>
+<!-- partial -->
+  
+</body>
+</html>
